@@ -63,22 +63,22 @@ function App() {
     }
   
     function getWaitingForEthPanel() {
-      return <div>
+      return <h2>
         Waiting for Ethereum accounts...
-      </div>;
+      </h2>;
     }
   
     function getWaitingForDIDPanel() {
-      return <div>
+      return <h2>
         Waiting for a decentralized ID...
-      </div>
+      </h2>
     }
   
     function getLandingPage() {
       return (
         <div>
               <h1>
-                We got your app 
+                Touch the Data 
               </h1>
 
                 { 

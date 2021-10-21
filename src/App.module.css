@@ -43,11 +43,6 @@
     text-align: left;
 }
 
-.csnLogoPanelImage {
-    transform: translateX(5%);
-    width: 30%;
-}
-
 .csnMainBar {
     display: flex;
 }
@@ -134,7 +129,7 @@
 }
 
 .csnSkillsFormContainer {
-    width: 30%;
+    width: 50%;
     border: 1px solid orange;
     border-radius: 1em;
     margin: 0.5em;
@@ -142,7 +137,7 @@
 }
 
 .csnSkillsContainer {
-    width: 70%;
+    width: 50%;
     border: 1px solid orange;
     border-radius: 1em;
     margin: 0.5em;
@@ -210,10 +205,6 @@
 
 .csnOverlayTextUpper {
     font-size: 1.2em;
-}
-
-.csnOverlayTextUpper {
-
 }
 
 .csnVerfiedSkillEntry {
