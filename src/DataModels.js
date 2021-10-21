@@ -117,8 +117,8 @@ function DataModels(props) {
             <h2>Description</h2>
             </div>
             <div className={styles.csnFormInput}>
-            <textarea name="skill-desc" value={Desc} onChange={e => setDesc(e.target.value)} rows={4}>
-            </textarea>
+            <input type="text" name="skill-id" value={Desc} onChange={e => setDesc(e.target.value)} rows={4}>
+            </input>
             </div>
         </div>
         <div className={styles.csnFormRow}>
