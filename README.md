@@ -1,3 +1,17 @@
+# Magic and DID
+
+React based app initialises using @3id/connect which is uniquly connected to the user. It connect to the web3 wallet which has unique identifiers.
+
+The data entered by user is stored online using his/her DID DataStore which can be changed only by the same person.
+
+### Goal for the visualisation
+![Some Progress](https://i.imgur.com/rVLBDIh.jpg?1)
+
+### Our CSS pprogress so far
+![Some Progress](https://i.imgur.com/FAm6ghn.jpg?1)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
