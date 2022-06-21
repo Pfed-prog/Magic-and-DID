@@ -1134,10 +1134,10 @@
     near-api-js "^0.44.2"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/common@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/common/-/common-2.2.0.tgz#909c59249d12326df4bd11443da5abe92a2e102f"
-  integrity sha512-xAC4t9BQLisEPyzbsclyaF6fFRyW4oh++dCgdhdExTSS1hBdTpjpVFqMQceuwXKUXx0Ic+n4E3zcm8s07ekm8A==
+"@ceramicnetwork/common@^2.2.0", "@ceramicnetwork/common@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/common/-/common-2.2.1.tgz#cb485bf88d1037914b98ce315240cbad517c0d85"
+  integrity sha512-1+R4CegurQ9T+DqE8jF3+RUfomblVJfx0DDqbX8qGgUhRlUdjmcOEcCaEmSS3W143e0NxbDM5NtJDdjkW/aybQ==
   dependencies:
     "@ceramicnetwork/streamid" "^2.1.0"
     "@opentelemetry/exporter-prometheus" "^0.28.0"
@@ -1234,12 +1234,12 @@
     multihashes "^4.0.3"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/stream-tile@^2.1.3", "@ceramicnetwork/stream-tile@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-tile/-/stream-tile-2.2.1.tgz#27f0732ef3fadc48ca0c2fb6e02d078d48695016"
-  integrity sha512-otEK/b+11T8tk1Mi2uag0TolrXQTeU46UaKtwxLeZX8hxrKSLA2BudTgLHH7a9ZgrbtRFb/t3ESpIDq339++xg==
+"@ceramicnetwork/stream-tile@^2.2.1", "@ceramicnetwork/stream-tile@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-tile/-/stream-tile-2.2.2.tgz#07c685b59a600f5140cf791368ce3e0a0f121bb0"
+  integrity sha512-HYRD5cOlpLBP14nkngdfQ1OOHxl2I5OPE2jHuhDfI5NfPdb4+tpYAcng1Dr3yWSYoC7lQ+WyVnJLWbjY/sSUeQ==
   dependencies:
-    "@ceramicnetwork/common" "^2.2.0"
+    "@ceramicnetwork/common" "^2.2.1"
     "@ceramicnetwork/streamid" "^2.1.0"
     "@ipld/dag-cbor" "^7.0.0"
     "@stablelib/random" "^1.0.1"
