@@ -1110,13 +1110,13 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ceramicnetwork/3id-did-resolver@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/3id-did-resolver/-/3id-did-resolver-2.1.1.tgz#557511943434448c2b4d86070488b1d57e9142c9"
-  integrity sha512-5TOyYkn7KoxKsTev07ug/DkJLXjGRElenfe+eXi/9eARq4peBptLYwH+SSdNasJtiM/QZtmA46OABe+xn7eo/Q==
+"@ceramicnetwork/3id-did-resolver@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/3id-did-resolver/-/3id-did-resolver-2.1.2.tgz#db280dd13124ec5ba81679c82206e2090926dd3e"
+  integrity sha512-Cr9zCzpa01lWE3lg3Pd1ghj4hjrI7qjFFAmMaxzuxcA8VGxWCIbx3U104JoqlGTqNBOCcqfcYO1CmkkJu7fFsA==
   dependencies:
-    "@ceramicnetwork/common" "^2.2.0"
-    "@ceramicnetwork/stream-tile" "^2.2.1"
+    "@ceramicnetwork/common" "^2.2.1"
+    "@ceramicnetwork/stream-tile" "^2.2.2"
     "@ceramicnetwork/streamid" "^2.1.0"
     cross-fetch "^3.1.4"
     lru_map "^0.4.1"

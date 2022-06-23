@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@3id/connect": "^0.4.1",
-    "@ceramicnetwork/3id-did-resolver": "^2.1.1",
+    "@ceramicnetwork/3id-did-resolver": "^2.1.2",
     "@ceramicnetwork/http-client": "^2.2.0",
     "@ceramicnetwork/stream-tile": "^2.2.2",
     "@testing-library/jest-dom": "^5.16.4",
