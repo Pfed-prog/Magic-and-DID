@@ -6,7 +6,7 @@
     "@3id/connect": "^0.4.1",
     "@ceramicnetwork/3id-did-resolver": "^2.1.1",
     "@ceramicnetwork/http-client": "^2.2.0",
-    "@ceramicnetwork/stream-tile": "^2.2.2",
+    "@ceramicnetwork/stream-tile": "^2.3.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.1",
