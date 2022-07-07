@@ -1154,17 +1154,17 @@
     rxjs "^7.5.2"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/http-client@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/http-client/-/http-client-2.2.0.tgz#6e23532b320f9b83811b207e78c1584200a5a524"
-  integrity sha512-e3rj+TMUzr6DW7+eUD82I/gOsEkpabLa2mjNct3mKIG2t0z9mAntv7RM5uhfTxb/0m1YShpZKhintxqZCTXeOw==
+"@ceramicnetwork/http-client@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/http-client/-/http-client-2.3.0.tgz#44a0da8d6d9c5ebaa20289adae70c5f1e6737e5f"
+  integrity sha512-nc+m0m/aPRGEA3CesN0yV4zoQrHtxhXDw9S76PxC2k6yF3fiu6PWlhb0911CwOM5/kYLzUGwT15XQxx7+weTpw==
   dependencies:
-    "@ceramicnetwork/common" "^2.2.0"
-    "@ceramicnetwork/stream-caip10-link" "^2.0.6"
-    "@ceramicnetwork/stream-model" "^0.2.0"
-    "@ceramicnetwork/stream-model-instance" "^0.2.0"
-    "@ceramicnetwork/stream-tile" "^2.2.1"
-    "@ceramicnetwork/streamid" "^2.1.0"
+    "@ceramicnetwork/common" "^2.3.0"
+    "@ceramicnetwork/stream-caip10-link" "^2.1.0"
+    "@ceramicnetwork/stream-model" "^0.3.0"
+    "@ceramicnetwork/stream-model-instance" "^0.3.0"
+    "@ceramicnetwork/stream-tile" "^2.3.0"
+    "@ceramicnetwork/streamid" "^2.2.0"
     query-string "^7.1.0"
     rxjs "^7.5.2"
 
@@ -1197,35 +1197,36 @@
     "@ceramicnetwork/transport-postmessage" "^0.6.0"
     rpc-utils "^0.6.0"
 
-"@ceramicnetwork/stream-caip10-link@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-caip10-link/-/stream-caip10-link-2.0.6.tgz#138890b452e86699ca455cbf9e398773acc543da"
-  integrity sha512-stCV/9N82KTaFzEakFxzBkd03ltTMO61Ip0DWWm2lX0Y+wXzxsajrJXF/mZ1XSQyyiH2/UzZbO+XTJV0p1tCjg==
+"@ceramicnetwork/stream-caip10-link@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-caip10-link/-/stream-caip10-link-2.1.0.tgz#7fad01b57012c52e811bb605ee759aadf1273c14"
+  integrity sha512-lAmgmDwsbshg2KDXyg3YJst+yZleFXAmkhUyOKHVn5tGQqn+cy/4lQfIhIETRHIpHUpwCVEN/+RgVLMZtFUUxQ==
   dependencies:
-    "@ceramicnetwork/common" "^2.2.0"
-    "@ceramicnetwork/streamid" "^2.1.0"
+    "@ceramicnetwork/common" "^2.3.0"
+    "@ceramicnetwork/streamid" "^2.2.0"
     caip "~1.1.0"
     did-resolver "^3.1.5"
+    lodash.clonedeep "^4.5.0"
 
-"@ceramicnetwork/stream-model-instance@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-model-instance/-/stream-model-instance-0.2.0.tgz#fbd251b1458cbeef6b057c3b1bf06795b7816d0f"
-  integrity sha512-BB4eUSu6icl10c+xMPD8Eo5etNSZJUGFd+keWmUEL/3Rtwc+u2PkLDH9ccziKQ3Yq6pcrfJ9Lbcy8FF3CwL0qg==
+"@ceramicnetwork/stream-model-instance@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-model-instance/-/stream-model-instance-0.3.0.tgz#cf0b47e9b21eecfba5d68be696fc043aab16bd2e"
+  integrity sha512-9Wq+RJgh57l7TlQq3va8QVha0hVgBM9ppMbNlackA8M7EvK/jQUl6I+p+L3Vm479TIxLqrUSqIUbQ6vdlmCIYA==
   dependencies:
-    "@ceramicnetwork/common" "^2.2.0"
-    "@ceramicnetwork/streamid" "^2.1.0"
+    "@ceramicnetwork/common" "^2.3.0"
+    "@ceramicnetwork/streamid" "^2.2.0"
     "@ipld/dag-cbor" "^7.0.0"
     "@stablelib/random" "^1.0.1"
     fast-json-patch "^3.1.0"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/stream-model@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-model/-/stream-model-0.2.0.tgz#13a63c29de3bd1217fb266f8efa259d76117aaca"
-  integrity sha512-yxT7gC0RTr0Li+4XH2hJjT+YsRXjenF15FVTPo+D9bU16nwsPqhWFmu1j0XYguHzBL18Jz4aPpBIJJSR03dSzg==
+"@ceramicnetwork/stream-model@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-model/-/stream-model-0.3.0.tgz#3077a262be90f60cff968f79a78d461cad0a8649"
+  integrity sha512-8lBLv7ds1fvmDPw2INZNTHvSs79m5jiqnM+e1jdJlz9DE36z7gEPnva5O93jg0/PlJmDXZlYdeAM0yVgnVBRZA==
   dependencies:
-    "@ceramicnetwork/common" "^2.2.0"
-    "@ceramicnetwork/streamid" "^2.1.0"
+    "@ceramicnetwork/common" "^2.3.0"
+    "@ceramicnetwork/streamid" "^2.2.0"
     "@ipld/dag-cbor" "^7.0.0"
     "@stablelib/random" "^1.0.1"
     fast-json-patch "^3.1.0"
