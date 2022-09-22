@@ -1115,14 +1115,14 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ceramicnetwork/3id-did-resolver@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/3id-did-resolver/-/3id-did-resolver-2.1.3.tgz#d4970cb7e2fc82f007608afcbb7bd3edb3482bcd"
-  integrity sha512-TJhh9Wi2Jt1Kl2u1ea4hR9NtsLI1L428dF1sAj6PbVr9A8CXRgaw2LD5lai+GwryuPzjmyLHYuYVNrpqipJDpw==
+"@ceramicnetwork/3id-did-resolver@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/3id-did-resolver/-/3id-did-resolver-2.1.8.tgz#96d3b66bfb035a46ae49489ccfe4233c7d631576"
+  integrity sha512-YDP2fmZ1l2gWIBbZo7ttvPqnSE4suXI2amwmkqUBral+PVrWtTHpefUsfM9KP5/lMShCoNnoRw8HQLeMEcXpcg==
   dependencies:
-    "@ceramicnetwork/common" "^2.3.0"
-    "@ceramicnetwork/stream-tile" "^2.3.0"
-    "@ceramicnetwork/streamid" "^2.2.0"
+    "@ceramicnetwork/common" "^2.7.0"
+    "@ceramicnetwork/stream-tile" "^2.4.4"
+    "@ceramicnetwork/streamid" "^2.3.4"
     cross-fetch "^3.1.4"
     lru_map "^0.4.1"
     multiformats "^9.5.8"
@@ -1139,20 +1139,19 @@
     near-api-js "^0.44.2"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/common@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/common/-/common-2.3.0.tgz#dc0c900cc1ebd889645cb3154d67cbc66e39a497"
-  integrity sha512-/0uqKpCCIEXijWF1ShMXj+IcvlAD3O10f7va9gMM/XMEXr5hYSrUdPqLcjxxvJJHhzQSCZBZSkAorTWgEnsoIg==
+"@ceramicnetwork/common@^2.3.0", "@ceramicnetwork/common@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/common/-/common-2.7.0.tgz#5cbcc0673ed90cb741d82da5d626d93048d1acb8"
+  integrity sha512-tZqo6si2eSwdqBWZsC8ZvX65DpENa/w3BdFv8y7xznEyr6MKSZEsRmH+i3TgpDv9i9YbX0CEqeGpS5O5RPKu8g==
   dependencies:
-    "@ceramicnetwork/streamid" "^2.2.0"
-    "@opentelemetry/exporter-prometheus" "^0.28.0"
-    "@opentelemetry/sdk-metrics-base" "^0.28.0"
-    "@opentelemetry/semantic-conventions" "^1.3.0"
+    "@ceramicnetwork/streamid" "^2.3.4"
+    "@stablelib/random" "^1.0.1"
     caip "~1.1.0"
-    ceramic-cacao "^1.1.1"
+    ceramic-cacao "^1.4.0"
     cross-fetch "^3.1.4"
     flat "^5.0.2"
-    jet-logger "^1.1.5"
+    it-first "^1.0.7"
+    jet-logger "1.2.2"
     lodash.clonedeep "^4.5.0"
     logfmt "^1.3.2"
     multiformats "^9.5.8"
@@ -1239,23 +1238,23 @@
     multihashes "^4.0.3"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/stream-tile@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-tile/-/stream-tile-2.3.0.tgz#868acfc4038691f43bdded04e9d35332f3755d7f"
-  integrity sha512-rRUUrrH9tOIT7wHpOGHE1+ftDUQFkk1iZr6w/54BkNhbAOYWldIZqX2JYRhI7QmTe+vKzdh6fDI6pHbaTJBfyg==
+"@ceramicnetwork/stream-tile@^2.3.0", "@ceramicnetwork/stream-tile@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/stream-tile/-/stream-tile-2.4.4.tgz#a48f7dc05050cf7032c9eefca83e26857a1fcda3"
+  integrity sha512-eW4lPfkrN1QldI7cXIWdJTa2bul01iJs2OGyQ5cVEk2KjwjtnwIUgvQL+Kcbm35miMtwf4yFqlI+ct8eYI+pQQ==
   dependencies:
-    "@ceramicnetwork/common" "^2.3.0"
-    "@ceramicnetwork/streamid" "^2.2.0"
+    "@ceramicnetwork/common" "^2.7.0"
+    "@ceramicnetwork/streamid" "^2.3.4"
     "@ipld/dag-cbor" "^7.0.0"
     "@stablelib/random" "^1.0.1"
     fast-json-patch "^3.1.0"
     lodash.clonedeep "^4.5.0"
     uint8arrays "^3.0.0"
 
-"@ceramicnetwork/streamid@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@ceramicnetwork/streamid/-/streamid-2.2.0.tgz#4b442fe75a02031cb72bc0b1f5e6b59decc0242c"
-  integrity sha512-39jTsPwM2Y0flYBptTJmSR9YbIbZ/y9kmzVOVm1hyh3j3liDqHLnj8g+kn4PY4ye1pV6cvXT52SVwc99/R5fNg==
+"@ceramicnetwork/streamid@^2.2.0", "@ceramicnetwork/streamid@^2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@ceramicnetwork/streamid/-/streamid-2.3.4.tgz#cf294708ff6676e1f75907690479015ad4738d81"
+  integrity sha512-Obc4DrrCIR+tothxuC8zROCG7AtNIYXEtGqGtu7qV9ka0mDmT6oRyUJjlog5FKWOgY6NPWwbXAyObCA0/oHfiQ==
   dependencies:
     "@ipld/dag-cbor" "^7.0.0"
     multiformats "^9.5.8"
@@ -1964,62 +1963,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
-
-"@opentelemetry/api-metrics@0.28.0":
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/api-metrics/-/api-metrics-0.28.0.tgz#698acbb2f570ece49815fca8be6f3070ae41f016"
-  integrity sha512-UcrJqEiV20YTibYXUT0TDBtl4uLh4tMpAYSa1g1780QrVMlsOMAnBrdD3EYTMPog14Zw+2QzPnDJ4X7q67YrSA==
-  dependencies:
-    "@opentelemetry/api" "^1.0.0"
-
-"@opentelemetry/api@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.1.0.tgz#563539048255bbe1a5f4f586a4a10a1bb737f44a"
-  integrity sha512-hf+3bwuBwtXsugA2ULBc95qxrOqP2pOekLz34BJhcAKawt94vfeNyUKpYc0lZQ/3sCP6LqRa7UAdHA7i5UODzQ==
-
-"@opentelemetry/core@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/core/-/core-1.2.0.tgz#cc6dabb7bb2f317427135863ba6bebe22b0b475e"
-  integrity sha512-QiKp8fBbT9ZhRTP+ZVVMyqH62tD/ZQa4gWPi+GnpNetvK1SWPO/8DmRpaSXHwAhu5FWUDJrbFgpLsrDd1zGPOw==
-  dependencies:
-    "@opentelemetry/semantic-conventions" "1.2.0"
-
-"@opentelemetry/exporter-prometheus@^0.28.0":
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/exporter-prometheus/-/exporter-prometheus-0.28.0.tgz#760c62a552906b9a4d4886cd05b662ec29c0f594"
-  integrity sha512-1PpJk0xFwVIRXb1vUEDWb+cV2Z8m/5YkZ+zL3+u58iZBiNn5t5VMHQ7iNPE+sV6Hr2BG8X7PtNzIIuJQKXrqsw==
-  dependencies:
-    "@opentelemetry/api-metrics" "0.28.0"
-    "@opentelemetry/core" "1.2.0"
-    "@opentelemetry/sdk-metrics-base" "0.28.0"
-
-"@opentelemetry/resources@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/resources/-/resources-1.2.0.tgz#5046d104d33839e58cca3184547c5dc26602f228"
-  integrity sha512-S5ZlZa2JF+1qhiF7eb3tTtDfKmTODO//pvam9vEyZvr+/At45rIQ7cyznRdMWCppZbholwXWXnrKml29IIG9vQ==
-  dependencies:
-    "@opentelemetry/core" "1.2.0"
-    "@opentelemetry/semantic-conventions" "1.2.0"
-
-"@opentelemetry/sdk-metrics-base@0.28.0", "@opentelemetry/sdk-metrics-base@^0.28.0":
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/sdk-metrics-base/-/sdk-metrics-base-0.28.0.tgz#8b317bbf45607594e749795ac56512ffd0d306b9"
-  integrity sha512-PFjk9+WWU6Y51ZjxClnPW1rzTtcT79pR1FTiFjTsNmKSG0zU3qvUHAoTo0+jvvrO0Djihj7AE+iIG2xLWY4GNQ==
-  dependencies:
-    "@opentelemetry/api-metrics" "0.28.0"
-    "@opentelemetry/core" "1.2.0"
-    "@opentelemetry/resources" "1.2.0"
-    lodash.merge "4.6.2"
-
-"@opentelemetry/semantic-conventions@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.2.0.tgz#1549c1d88dc45d720b8487e39077eacc69636c73"
-  integrity sha512-BNKB9fiYVghALJzCuWO3eNYfdTExPVK4ykrtmfNfy0A6UWYhOYjGMXifUmkunDJNL8ju9tBobo8jF0WR9zGy1Q==
-
-"@opentelemetry/semantic-conventions@^1.3.0":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.3.1.tgz#ba07b864a3c955f061aa30ea3ef7f4ae4449794a"
-  integrity sha512-wU5J8rUoo32oSef/rFpOT1HIjLjAv3qIDHkw1QIhODV3OpAVHi5oVzlouozg9obUmZKtbZ0qUe/m7FP0y0yBzA==
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.3":
   version "0.5.7"
@@ -3650,16 +3593,18 @@ ceramic-cacao@^1.0.0, ceramic-cacao@^1.1.0:
     caip "^1.0.0"
     multiformats "^9.5.1"
 
-ceramic-cacao@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ceramic-cacao/-/ceramic-cacao-1.1.1.tgz#2efecca677e4d4bf7308692d894b78fe3392eacc"
-  integrity sha512-p/IO5/EmUBhD0hbSpJaXTN8bKHYNZ8zDou3m2170wfbb+fJFf71kzWEsT/WV3JlWNBgkKEhwgbe9YGVOP2shoA==
+ceramic-cacao@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/ceramic-cacao/-/ceramic-cacao-1.4.0.tgz#1c8da40bceb59813474c1b0c81359f27a3c8ceed"
+  integrity sha512-Vc4qsPSBGWmmNLTKBUNeuDU4xlLU5dY1atHwoBiYrjCRq2NKScW+aB+msJCKns6YpkzJW/trTMs72roN1WLvzQ==
   dependencies:
     "@ethersproject/wallet" "^5.5.0"
     "@ipld/dag-cbor" "^7.0.1"
+    "@stablelib/ed25519" "^1.0.2"
     apg-js "^4.1.1"
     caip "^1.0.0"
     multiformats "^9.5.1"
+    uint8arrays "^3.0.0"
 
 chalk@^2.0.0, chalk@^2.4.1:
   version "2.4.2"
@@ -5968,6 +5913,11 @@ istanbul-reports@^3.1.3:
     html-escaper "^2.0.0"
     istanbul-lib-report "^3.0.0"
 
+it-first@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/it-first/-/it-first-1.0.7.tgz#a4bef40da8be21667f7d23e44dae652f5ccd7ab1"
+  integrity sha512-nvJKZoBpZD/6Rtde6FXqwDqDZGF1sCADmr2Zoc0hZsIvnE449gRFnGctxDf09Bzc/FWnHXAdaHVIetY6lrE0/g==
+
 jake@^10.8.5:
   version "10.8.5"
   resolved "https://registry.yarnpkg.com/jake/-/jake-10.8.5.tgz#f2183d2c59382cb274226034543b9c03b8164c46"
@@ -6451,10 +6401,10 @@ jest@^27.4.3:
     import-local "^3.0.2"
     jest-cli "^27.5.1"
 
-jet-logger@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/jet-logger/-/jet-logger-1.1.5.tgz#e366d453610d15cc940aaf18c3896cf92a5a0c4a"
-  integrity sha512-bG3FW7T8b825ZDJ9pnb+FovbKhhQ0vQmq7la2blNcsJbB0rviNvEjBEC4zjFSK6wFje7fAwXS8qYPkorHkJR9g==
+jet-logger@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/jet-logger/-/jet-logger-1.2.2.tgz#f3866c0a34b6dc43f03bf4479ca677a1110156bc"
+  integrity sha512-Kbw4G3BC45+Umz5XBnsE50pHplruJTVKGRy5X1YfCu3Te7f8ggTL8Tm10YegAD2QP41MVQ3o/Y9MFAZzfythqw==
   dependencies:
     colors "1.3.0"
 
@@ -6717,7 +6667,7 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.merge@4.6.2, lodash.merge@^4.6.2:
+lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
